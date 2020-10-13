@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Berlin Quiz</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="app.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>Berlin Quiz</h1>
+  </header>
+  <main>
+    <p>Total Correct: 0/5</p>
+    <form action="" method="">
+      <label for="question1">What is the capital of Germany?</label>
+        <ol>
+        <li>
+          <input type="radio" id="Cologne" name="capitalQuestion" value="incorrect">
+          <label for="Cologne">Cologne</label>
+        </li>
+        <li>
+          <input type="radio" id="Berlin" name="capitalQuestion" value="correct">
+          <label for="Berlin">Berlin</label>
+        </li>
+        <li>
+          <input type="radio" id="Frankfurt" name="capitalQuestion" value="incorrect">
+          <label for="Frankfurt">Frankfurt</label>
+        </li>
+        <li>
+          <input type="radio" id="Munich" name="capitalQuestion" value="incorrect">
+          <label for="Munich">Munich</label>
+        </li>
+       </ol>
+        <input type="submit" value="SUBMIT"></input>
+    </form>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
